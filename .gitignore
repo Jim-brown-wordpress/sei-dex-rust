@@ -1,0 +1,28 @@
+# Build results
+**/target/
+
+# Cargo+Git helper file (https://github.com/rust-lang/cargo/blob/0.44.1/src/cargo/sources/git/utils.rs#L320-L327)
+.cargo-ok
+
+**/Cargo.lock
+
+# Text file backups
+**/*.rs.bk
+
+# macOS
+.DS_Store
+
+# generated schemas
+packages/*/schema
+contracts/*/schema
+schema
+
+# IDEs
+*.iml
+.idea
+
+# Build artifacts
+*.wasm
+hash.txt
+contracts.txt
+artifacts/
